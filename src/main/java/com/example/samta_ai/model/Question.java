@@ -46,7 +46,6 @@ public class Question {
     }
 
     public Question(Long id, String question, String answer, String value, OffsetDateTime airdate, OffsetDateTime created_at, OffsetDateTime updated_at, String game_id, Category category) {
-        super();
         this.id = id;
         this.question = question;
         this.answer = answer;

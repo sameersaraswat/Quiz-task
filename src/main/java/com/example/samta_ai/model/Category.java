@@ -29,7 +29,6 @@ public class Category {
     }
 
     public Category(Long id, String title, OffsetDateTime created_at, OffsetDateTime updated_at, String clues_count, Set<Question> question) {
-        super();
         this.id = id;
         this.title = title;
         this.created_at = created_at;
